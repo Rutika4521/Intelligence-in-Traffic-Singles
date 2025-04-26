@@ -17,7 +17,7 @@ class SmartTrafficControl:
         # Variables
         self.is_detecting = False
         self.cap = None
-        self.model = YOLO("C:\\Users\\Swaraj Patil\\Desktop\\best.pt")
+        self.model = YOLO("C:\Users\HP\Desktop\SY II\EDAI\traffic\PROJECT\best.pt")
         self.default_green_duration = 10
         self.vehicle_counts = {lane: 0 for lane in ['Lane 1', 'Lane 2', 'Lane 3', 'Lane 4']}
         self.current_light = 0  # Active lane index
